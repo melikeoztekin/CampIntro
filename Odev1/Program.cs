@@ -24,19 +24,19 @@ namespace Odev1
             urun3.urunAdi = "Yüksek Bel Pantolon";
             urun3.urunRengi = "Kot Mavi";
 
-            Product[] product = new Product[] { urun1, urun2, urun3 }; Console.WriteLine("-------for döngüsü--------");
+            Product[] product = new Product[] { urun1, urun2, urun3 }; Console.WriteLine("-------For döngüsü--------");
             for (int i = 0; i < product.Length; i++)
             {
                 Console.WriteLine(product[i].urunKodu + " - " + product[i].urunAdi + " - " + product[i].urunRengi);
             }
 
-            Console.WriteLine("-------foreach döngüsü--------");
+            Console.WriteLine("-------Foreach döngüsü--------");
             foreach (var urun in product)
             {
                 Console.WriteLine(urun.urunKodu + " - " + urun.urunAdi + " - " + urun.urunRengi);
             }
 
-            Console.WriteLine("-------while döngüsü--------");
+            Console.WriteLine("-------While döngüsü--------");
             int sayac = 0;
             while (sayac < product.Length)
             {
