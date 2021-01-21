@@ -21,6 +21,11 @@ namespace DegerVeReferansTipler
             sayilar1 = sayilar2;
             sayilar2[0] = 999;
             Console.WriteLine(sayilar1[0]);
+
+            //int, decimal, float, double, bool(1-0): değer tip (değer ataması yapılır)
+            //array, class, interface: referans tip (adres ataması yapılır)
+
+            //bellekteki alanlar stack --> değer tiplerin tanımlandığı yer ve heap --> referans tiplerin tanımlandığı yer
         }
     }
 }
