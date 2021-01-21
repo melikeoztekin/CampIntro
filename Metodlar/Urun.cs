@@ -6,7 +6,7 @@ namespace Metodlar
 {
     class Urun
     {
-        //Propert - Özellik
+        //Property - Özellik
         public int Id { get; set; }
         public string Adi { get; set; }
         public double Fiyati { get; set; }
