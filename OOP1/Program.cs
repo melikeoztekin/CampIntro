@@ -8,7 +8,7 @@ namespace OOP1
         {
             Product product1 = new Product();
             product1.Id = 1;
-            product1.CategoryId = 2; //Mesela mobilya kategorisinin Id si 2 olsun
+            product1.CategoryId = 2; //Mesela mobilya kategorisinin Idsi 2 olsun
             product1.ProductName = "Masa";
             product1.UnitPrice = 500;
             product1.UnitsInStock = 3;

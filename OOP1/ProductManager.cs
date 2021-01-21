@@ -6,7 +6,7 @@ namespace OOP1
 {
     class ProductManager
     {
-        public void Add(Product product) //(string ad) olarakda kullanılabilirdi. Product classından product isimli bellek adresi tutan veriyi isteriz.
+        public void Add(Product product) //(string ad) olarakta kullanılabilirdi. Product classından product isimli bellek adresi tutan veriyi isteriz.
         {
             Console.WriteLine(product.ProductName + " eklendi.");
         }

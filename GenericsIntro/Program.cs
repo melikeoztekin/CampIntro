@@ -8,7 +8,7 @@ namespace GenericsIntro
         static void Main(string[] args)
         {
             MyList<string> isimler = new MyList<string>(); //string türünde bir liste 
-            //MyList.cs de T yi string yapmış olduk
+            //MyList.cs de T'yi string yapmış olduk
             isimler.Add("Melike");
 
             List<string> liste = new List<string>();

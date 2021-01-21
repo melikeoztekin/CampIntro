@@ -12,10 +12,10 @@ namespace Collections
             //Console.WriteLine(names[1]);
             //Console.WriteLine(names[2]);
             //Console.WriteLine(names[3]);
-            //names = new string[5]; //bu yöntemi yapmak listedeki diğer elemanları kaybetmeye sebep olur
-            //names[4] = "Kayra"; //yeni dizi elemanları [ , , , ,"Kayra"] olur
+            //names = new string[5]; //Bu yöntemi yapmak listedeki diğer elemanları kaybetmeye sebep olur
+            //names[4] = "Kayra"; //Yeni dizi elemanları [ , , , ,"Kayra"] olur
             //Console.WriteLine(names[4]); //Kayrayı burada döndürür
-            //Console.WriteLine(names[0]); //bunun çıktısı olarak boşluk gönderir
+            //Console.WriteLine(names[0]); //Bunun çıktısı olarak boşluk gönderir
 
             List<string> names2 = new List<string> { "Melike", "Kadriye", "Ceylan", "Umut" };
             Console.WriteLine(names2[0]);

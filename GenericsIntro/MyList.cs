@@ -13,7 +13,7 @@ namespace GenericsIntro
             items = new T[0];
         }
         public void Add(T item) //T : sen bana ne tip verirsen ben o tip ile çalışacağım
-                                //Yukarıda T olarak tanımlanan tür (string, int vs. olabilir)
+            //Yukarıda T olarak tanımlanan tür (string, int vs. olabilir)
         {
             T[] tempArray = items; //Ögeler tempArray'e sabitlenir.
             items = new T[items.Length+1]; //dizinin eleman sayısını bir arttırır
