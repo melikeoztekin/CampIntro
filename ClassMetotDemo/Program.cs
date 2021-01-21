@@ -21,7 +21,7 @@ namespace ClassMetotDemo
             musteri2.Sehir = "Manisa";
 
             Musteri[] musteriler = new Musteri[] { musteri1, musteri2 };
-            Console.WriteLine("MÜŞTERİ LİSTEMİZ AŞAĞIDA YER ALMAKTADIR.");
+            Console.WriteLine("MÜŞTERİ LİSTEMİZ AŞAĞIDA YER ALMAKTADIR!");
             foreach (var musteri in musteriler)
             {
                 Console.WriteLine(musteri.Id);

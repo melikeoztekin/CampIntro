@@ -4,6 +4,8 @@ using System.Text;
 
 namespace ClassMetotDemo
 {
+
+    //property - özellikler
     class Musteri
     {
         public int Id { get; set; }
