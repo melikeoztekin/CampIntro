@@ -6,9 +6,9 @@ namespace CampIntro
     {
         static void Main(string[] args)
         {
-            //type safety -tip güvenliği
+            //type safety - tip güvenliği
             //do not repeat yourself
-            //değişken- değer tutucu- alias
+            //değişken - değer tutucu - alias
             string kategoriEtiketi = "Kategori";
             int ogrenciSayisi = 32000;
             double faizOrani = 1.45;

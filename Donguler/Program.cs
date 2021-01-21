@@ -19,7 +19,7 @@ namespace Donguler
             Console.WriteLine(kurs5);
             Console.WriteLine("----Manuel bitti-----");
 
-            //array -dizi
+            //array - dizi
             string[] kurslar = new string[] { "Yazılım Geliştirici Yetiştirme Kursu", "Programlamaya Başlngıç için Temel Kurs", "Java","Python","C++" };
 
             for (int i = 0; i < kurslar.Length; i++)
